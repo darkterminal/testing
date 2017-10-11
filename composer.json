@@ -1,10 +1,16 @@
 {
     "require": {
-        "illuminate/database": "^5.5"
+	"php": "^5.3.3 || ^7.0",
+        "illuminate/database": "^5.5",
+	"illuminate/routing": "^5.5",
+	"illuminate/events": "^5.5",
+	"jenssegers/blade": "*"
     },
     "autoload" : {
     	"classmap" : [
-    		"app/models"
+    		"app/models",
+		"app/controllers",
+		"app/commands"
     	]
     }
 }
